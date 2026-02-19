@@ -1,0 +1,15 @@
+{
+  "$schema": "https://railway.app/schema.json",
+  "name": "price-aggregator-api",
+  "build": {
+    "builder": "NIXPACKS"
+  },
+  "deploy": {
+    "numReplicas": 1,
+    "restartPolicy": "on-failure",
+    "healthcheckPath": "/health"
+  },
+  "env": {
+    "PYTHON_VERSION": "3.11"
+  }
+}
