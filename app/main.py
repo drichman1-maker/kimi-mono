@@ -7,7 +7,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from contextlib import asynccontextmanager
 
-from app.routers import products, alerts, retailers
+from app.routers import products, alerts, retailers, mactrackr
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
@@ -42,6 +42,7 @@ app.add_middleware(
 app.include_router(products.router, prefix="/api/v1", tags=["products"])
 app.include_router(alerts.router, prefix="/api/v1", tags=["alerts"])
 app.include_router(retailers.router, prefix="/api/v1", tags=["retailers"])
+app.include_router(mactrackr.router, tags=["mactrackr"])
 
 @app.get("/")
 async def root():
