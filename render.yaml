@@ -1,0 +1,33 @@
+services:
+  - type: web
+    name: price-aggregator-api
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: DATABASE_URL
+        fromDatabase:
+          name: price-aggregator-db
+          property: connectionString
+      - key: PYTHON_VERSION
+        value: 3.11.0
+    healthCheckPath: /health
+
+  - type: cron
+    name: price-aggregator-scraper
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: python -c "from scrapers.runner import init_scheduler; r = init_scheduler(); r.start(); import time; time.sleep(3600)"
+    schedule: "0 */6 * * *"
+    envVars:
+      - key: DATABASE_URL
+        fromDatabase:
+          name: price-aggregator-db
+          property: connectionString
+
+databases:
+  - name: price-aggregator-db
+    plan: free
+    ipAllowList: []
