@@ -3,7 +3,7 @@ Price Aggregator API - Main Application
 FastAPI entry point with Tier 1-2 field support
 """
 
-from fastapi import FastAPI, Depends, HTTPException
+from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from contextlib import asynccontextmanager
 
@@ -11,17 +11,9 @@ from app.routers import products, alerts, retailers
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
-    """Application lifespan events"""
+    """Application lifespan events - non-blocking startup"""
     print("🚀 Price Aggregator API starting...")
-    try:
-        # Test database connection without creating tables
-        from app.database import engine
-        from sqlalchemy import text
-        with engine.connect() as conn:
-            conn.execute(text("SELECT 1"))
-        print("✅ Database connected")
-    except Exception as e:
-        print(f"⚠️ Database not ready: {e}")
+    print("✅ API ready (database connects lazily)")
     yield
     print("🛑 Price Aggregator API shutting down...")
 
@@ -51,10 +43,10 @@ async def root():
     return {
         "message": "Price Aggregator API",
         "version": "2.0.0",
-        "docs": "/docs",
-        "features": ["Tier 1-2 fields", "Multi-category", "Price alerts"]
+        "docs": "/docs"
     }
 
 @app.get("/health")
 async def health_check():
+    """Health check - always returns ok"""
     return {"status": "healthy", "service": "price-aggregator-api"}
