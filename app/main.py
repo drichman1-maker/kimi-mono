@@ -7,16 +7,21 @@ from fastapi import FastAPI, Depends, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from contextlib import asynccontextmanager
 
-from app.database import engine, Base
 from app.routers import products, alerts, retailers
-
-# Create tables
-Base.metadata.create_all(bind=engine)
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     """Application lifespan events"""
     print("🚀 Price Aggregator API starting...")
+    try:
+        # Test database connection without creating tables
+        from app.database import engine
+        from sqlalchemy import text
+        with engine.connect() as conn:
+            conn.execute(text("SELECT 1"))
+        print("✅ Database connected")
+    except Exception as e:
+        print(f"⚠️ Database not ready: {e}")
     yield
     print("🛑 Price Aggregator API shutting down...")
 
