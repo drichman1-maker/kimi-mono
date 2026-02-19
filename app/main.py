@@ -11,9 +11,14 @@ from app.routers import products, alerts, retailers
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
-    """Application lifespan events - non-blocking startup"""
+    """Application lifespan events - create tables on startup"""
     print("🚀 Price Aggregator API starting...")
-    print("✅ API ready (database connects lazily)")
+    try:
+        from app.database import Base, engine
+        Base.metadata.create_all(bind=engine)
+        print("✅ Database tables created/verified")
+    except Exception as e:
+        print(f"⚠️ Database setup warning: {e}")
     yield
     print("🛑 Price Aggregator API shutting down...")
 
