@@ -29,5 +29,5 @@ services:
 
 databases:
   - name: price-aggregator-db
-    plan: standard
+    plan: individual
     ipAllowList: []
