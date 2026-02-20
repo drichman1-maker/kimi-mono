@@ -39,7 +39,8 @@ PRODUCTS = [
             {"retailer": "walmart", "price": 799, "inStock": True, "url": "https://www.walmart.com/ip/iPhone-16-128GB-White-Apple-Intelligence/11469110090"},
             {"retailer": "target", "price": 799, "inStock": True, "url": "https://www.target.com/p/apple-iphone-16-128gb-white/-/A-86076262"},
             {"retailer": "bhphoto", "price": 799, "inStock": True, "url": "https://www.bhphotovideo.com/c/product/1800534-REG/apple_myd53ll_a_iphone_16_128gb_white.html"},
-            {"retailer": "adorama", "price": 799, "inStock": True, "url": "https://www.adorama.com/ac12816wh.html"}
+            {"retailer": "adorama", "price": 799, "inStock": True, "url": "https://www.adorama.com/ac12816wh.html"},
+            {"retailer": "ebay", "price": 749, "inStock": True, "url": "https://www.ebay.com/sch/i.html?_nkw=iPhone+16+128GB"}
         ],
         "releaseDate": "2024-09-20"
     },
@@ -55,7 +56,8 @@ PRODUCTS = [
             {"retailer": "walmart", "price": 1199, "inStock": True, "url": "https://www.walmart.com/ip/Apple-iPhone-16-Pro-Max-256GB-Desert-Titanium/5000354046"},
             {"retailer": "target", "price": 1199, "inStock": True, "url": "https://www.target.com/p/apple-iphone-16-pro-max/-/A-93597962"},
             {"retailer": "bhphoto", "price": 1199, "inStock": True, "url": "https://www.bhphotovideo.com/c/product/1800550-REG/apple_mynn3ll_a_iphone_16_pro_max.html"},
-            {"retailer": "adorama", "price": 1199, "inStock": True, "url": "https://www.adorama.com/ac25616pmaxdt.html"}
+            {"retailer": "adorama", "price": 1199, "inStock": True, "url": "https://www.adorama.com/ac25616pmaxdt.html"},
+            {"retailer": "ebay", "price": 1149, "inStock": True, "url": "https://www.ebay.com/sch/i.html?_nkw=iPhone+16+Pro+Max+256GB"}
         ],
         "releaseDate": "2024-09-20"
     },
@@ -70,7 +72,8 @@ PRODUCTS = [
             {"retailer": "bestbuy", "price": 999, "inStock": True, "url": "https://www.bestbuy.com/site/apple-macbook-air-13-inch-laptop-apple-m4-chip-16gb-memory-256gb-ssd-midnight/6534616.p"},
             {"retailer": "walmart", "price": 999, "inStock": True, "url": "https://www.walmart.com/ip/Apple-13-inch-MacBook-Air-M4-w-10-core-CPU-and-8-core-GPU-256GB-SSD-Silver-MW0W3LL-A-2025/15481367422"},
             {"retailer": "bhphoto", "price": 999, "inStock": True, "url": "https://www.bhphotovideo.com/c/product/1811193-REG/apple_mw123ll_a_13_macbook_air_m4.html"},
-            {"retailer": "adorama", "price": 999, "inStock": True, "url": "https://www.adorama.com/acmba1324sm4.html"}
+            {"retailer": "adorama", "price": 999, "inStock": True, "url": "https://www.adorama.com/acmba1324sm4.html"},
+            {"retailer": "ebay", "price": 949, "inStock": True, "url": "https://www.ebay.com/sch/i.html?_nkw=MacBook+Air+13+M4"}
         ],
         "releaseDate": "2025-03-01"
     },
@@ -147,7 +150,8 @@ PRODUCTS = [
             {"retailer": "target", "price": 249, "inStock": True, "url": "https://www.target.com/p/apple-airpods-pro-2nd-generation/-/A-85978618"},
             {"retailer": "bhphoto", "price": 249, "inStock": True, "url": "https://www.bhphotovideo.com/c/product/1733640-REG/apple_mtjv3am_a_airpods_pro_2nd.html"},
             {"retailer": "adorama", "price": 249, "inStock": True, "url": "https://www.adorama.com/acmtjv3ama.html"},
-            {"retailer": "costco", "price": 239, "inStock": True, "url": "https://www.costco.com/apple-airpods-pro-2nd-generation.product.4000143838.html"}
+            {"retailer": "costco", "price": 239, "inStock": True, "url": "https://www.costco.com/apple-airpods-pro-2nd-generation.product.4000143838.html"},
+            {"retailer": "ebay", "price": 219, "inStock": True, "url": "https://www.ebay.com/sch/i.html?_nkw=AirPods+Pro+2+USB-C"}
         ],
         "releaseDate": "2023-09-22"
     },
@@ -337,7 +341,8 @@ PRODUCTS = [
             {"retailer": "bestbuy", "price": 1299, "inStock": True, "url": "https://www.bestbuy.com/site/apple-ipad-pro-13-inch-m4-chip-wi-fi-256gb-space-black/MVX23LL-A"},
             {"retailer": "walmart", "price": 1299, "inStock": True, "url": "https://www.walmart.com/ip/Apple-iPad-Pro-13-inch-M4-256GB-Wi-Fi-Space-Black/5038464532"},
             {"retailer": "bhphoto", "price": 1299, "inStock": True, "url": "https://www.bhphotovideo.com/c/product/1794196-REG/apple_mvx23ll_a_ipad_pro_13_m4_256gb.html"},
-            {"retailer": "adorama", "price": 1299, "inStock": True, "url": "https://www.adorama.com/ac25613pm4sb.html"}
+            {"retailer": "adorama", "price": 1299, "inStock": True, "url": "https://www.adorama.com/ac25613pm4sb.html"},
+            {"retailer": "ebay", "price": 1199, "inStock": True, "url": "https://www.ebay.com/sch/i.html?_nkw=iPad+Pro+13+M4+256GB"}
         ],
         "releaseDate": "2024-05-15"
     },
