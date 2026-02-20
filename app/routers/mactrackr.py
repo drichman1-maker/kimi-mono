@@ -501,6 +501,97 @@ PRODUCTS = [
         ],
         "releaseDate": "2024-11-08"
     },
+    // === DESKTOP MACS FROM EXCEL ===
+    {
+        "id": "imac-24-m4-8core",
+        "name": "iMac 24\"",
+        "category": "mac",
+        "specs": {"chip": "M4 8-Core", "ram": "16GB", "storage": "256GB SSD", "display": "24\" 4.5K Retina", "ports": "2-Port", "color": "Blue"},
+        "prices": [
+            {"retailer": "apple", "price": 1299, "inStock": True, "url": "https://www.apple.com/shop/buy-mac/imac"},
+            {"retailer": "amazon", "price": 1299, "inStock": True, "url": "https://www.amazon.com/dp/B0DKLHHMZ8"},
+            {"retailer": "bestbuy", "price": 1299, "inStock": True, "url": "https://www.bestbuy.com/site/apple-imac-24-inch-all-in-one-m4-chip-16gb-memory-256gb-ssd-blue/MWUC3LL-A"},
+            {"retailer": "walmart", "price": 1299, "inStock": True, "url": "https://www.walmart.com/ip/Apple-iMac-24-inch-M4-8-Core-16GB-256GB-Blue/15481367424"},
+            {"retailer": "bhphoto", "price": 1299, "inStock": True, "url": "https://www.bhphotovideo.com/c/product/1811198-REG/apple_mwuc3ll_a_imac_24_m4_8core.html"},
+            {"retailer": "adorama", "price": 1299, "inStock": True, "url": "https://www.adorama.com/acimac24m48b.html"}
+        ],
+        "releaseDate": "2024-11-08"
+    },
+    {
+        "id": "imac-24-m4-10core-256",
+        "name": "iMac 24\"",
+        "category": "mac",
+        "specs": {"chip": "M4 10-Core", "ram": "16GB", "storage": "256GB SSD", "display": "24\" 4.5K Retina", "ports": "4-Port", "color": "Green"},
+        "prices": [
+            {"retailer": "apple", "price": 1499, "inStock": True, "url": "https://www.apple.com/shop/buy-mac/imac"},
+            {"retailer": "amazon", "price": 1499, "inStock": True, "url": "https://www.amazon.com/dp/B0DKLHHMZ9"},
+            {"retailer": "bestbuy", "price": 1499, "inStock": True, "url": "https://www.bestbuy.com/site/apple-imac-24-inch-all-in-one-m4-chip-16gb-memory-256gb-ssd-green/MWV13LL-A"},
+            {"retailer": "walmart", "price": 1499, "inStock": True, "url": "https://www.walmart.com/ip/Apple-iMac-24-inch-M4-10-Core-16GB-256GB-Green/15481367425"},
+            {"retailer": "bhphoto", "price": 1499, "inStock": True, "url": "https://www.bhphotovideo.com/c/product/1811199-REG/apple_mwv13ll_a_imac_24_m4_10core.html"},
+            {"retailer": "adorama", "price": 1499, "inStock": True, "url": "https://www.adorama.com/acimac24m410g.html"}
+        ],
+        "releaseDate": "2024-11-08"
+    },
+    {
+        "id": "imac-24-m4-10core-512",
+        "name": "iMac 24\"",
+        "category": "mac",
+        "specs": {"chip": "M4 10-Core", "ram": "16GB", "storage": "512GB SSD", "display": "24\" 4.5K Retina", "ports": "4-Port", "color": "Pink"},
+        "prices": [
+            {"retailer": "apple", "price": 1699, "inStock": True, "url": "https://www.apple.com/shop/buy-mac/imac"},
+            {"retailer": "amazon", "price": 1699, "inStock": True, "url": "https://www.amazon.com/dp/B0DKLHHMZA"},
+            {"retailer": "bestbuy", "price": 1699, "inStock": True, "url": "https://www.bestbuy.com/site/apple-imac-24-inch-all-in-one-m4-chip-16gb-memory-512gb-ssd-pink/MWUV3LL-A"},
+            {"retailer": "walmart", "price": 1699, "inStock": True, "url": "https://www.walmart.com/ip/Apple-iMac-24-inch-M4-10-Core-16GB-512GB-Pink/15481367426"},
+            {"retailer": "bhphoto", "price": 1699, "inStock": True, "url": "https://www.bhphotovideo.com/c/product/1811200-REG/apple_mwuv3ll_a_imac_24_m4_10core_512.html"},
+            {"retailer": "adorama", "price": 1699, "inStock": True, "url": "https://www.adorama.com/acimac24m410p.html"}
+        ],
+        "releaseDate": "2024-11-08"
+    },
+    {
+        "id": "mac-mini-m4-512",
+        "name": "Mac mini",
+        "category": "mac",
+        "specs": {"chip": "M4", "ram": "16GB", "storage": "512GB SSD", "color": "Silver", "ports": "3x Thunderbolt 4"},
+        "prices": [
+            {"retailer": "apple", "price": 799, "inStock": True, "url": "https://www.apple.com/shop/buy-mac/mac-mini"},
+            {"retailer": "amazon", "price": 799, "inStock": True, "url": "https://www.amazon.com/dp/B0DKLHHMZ5"},
+            {"retailer": "bestbuy", "price": 799, "inStock": True, "url": "https://www.bestbuy.com/site/apple-mac-mini-desktop-m4-chip-16gb-memory-512gb-ssd-silver/MU9E3LL-A"},
+            {"retailer": "walmart", "price": 799, "inStock": True, "url": "https://www.walmart.com/ip/Apple-2024-Mac-mini-M4-16GB-512GB-Silver/5406222931"},
+            {"retailer": "bhphoto", "price": 799, "inStock": True, "url": "https://www.bhphotovideo.com/c/product/1811201-REG/apple_mu9e3ll_a_mac_mini_m4_512gb.html"},
+            {"retailer": "adorama", "price": 799, "inStock": True, "url": "https://www.adorama.com/acmacminim4512.html"}
+        ],
+        "releaseDate": "2024-11-08"
+    },
+    {
+        "id": "mac-studio-m4-max-512",
+        "name": "Mac Studio",
+        "category": "mac",
+        "specs": {"chip": "M4 Max 14-Core", "ram": "36GB", "storage": "512GB SSD", "color": "Silver", "ports": "6x Thunderbolt 4"},
+        "prices": [
+            {"retailer": "apple", "price": 1999, "inStock": True, "url": "https://www.apple.com/shop/buy-mac/mac-studio"},
+            {"retailer": "amazon", "price": 1999, "inStock": True, "url": "https://www.amazon.com/dp/B0DKLHHMZC"},
+            {"retailer": "bestbuy", "price": 1999, "inStock": True, "url": "https://www.bestbuy.com/site/apple-mac-studio-desktop-m4-max-chip-36gb-memory-512gb-ssd-silver/MU963LL-A"},
+            {"retailer": "walmart", "price": 1999, "inStock": True, "url": "https://www.walmart.com/ip/Apple-Mac-Studio-M4-Max-14-Core-36GB-512GB-Silver/13679766554"},
+            {"retailer": "bhphoto", "price": 1999, "inStock": True, "url": "https://www.bhphotovideo.com/c/product/1811202-REG/apple_mu963ll_a_mac_studio_m4_max.html"},
+            {"retailer": "adorama", "price": 1999, "inStock": True, "url": "https://www.adorama.com/acmstudm4m512.html"}
+        ],
+        "releaseDate": "2025-03-12"
+    },
+    {
+        "id": "mac-studio-m4-max-1tb",
+        "name": "Mac Studio",
+        "category": "mac",
+        "specs": {"chip": "M4 Max 14-Core", "ram": "36GB", "storage": "1TB SSD", "color": "Silver", "ports": "6x Thunderbolt 4"},
+        "prices": [
+            {"retailer": "apple", "price": 2199, "inStock": True, "url": "https://www.apple.com/shop/buy-mac/mac-studio"},
+            {"retailer": "amazon", "price": 2199, "inStock": True, "url": "https://www.amazon.com/dp/B0DKLHHMZD"},
+            {"retailer": "bestbuy", "price": 2199, "inStock": True, "url": "https://www.bestbuy.com/site/apple-mac-studio-desktop-m4-max-chip-36gb-memory-1tb-ssd-silver/MU973LL-A"},
+            {"retailer": "walmart", "price": 2199, "inStock": True, "url": "https://www.walmart.com/ip/Apple-Mac-Studio-M4-Max-14-Core-36GB-1TB-Silver/13679766555"},
+            {"retailer": "bhphoto", "price": 2199, "inStock": True, "url": "https://www.bhphotovideo.com/c/product/1811203-REG/apple_mu973ll_a_mac_studio_m4_max_1tb.html"},
+            {"retailer": "adorama", "price": 2199, "inStock": True, "url": "https://www.adorama.com/acmstudm4m1tb.html"}
+        ],
+        "releaseDate": "2025-03-12"
+    },
     // Apple Watch
     {
         "id": "apple-watch-ultra-2",
