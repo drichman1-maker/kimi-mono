@@ -40,7 +40,8 @@ PRODUCTS = [
             {"retailer": "target", "price": 799, "inStock": True, "url": "https://www.target.com/p/apple-iphone-16-128gb-white/-/A-86076262"},
             {"retailer": "bhphoto", "price": 799, "inStock": True, "url": "https://www.bhphotovideo.com/c/product/1800534-REG/apple_myd53ll_a_iphone_16_128gb_white.html"},
             {"retailer": "adorama", "price": 799, "inStock": True, "url": "https://www.adorama.com/ac12816wh.html"},
-            {"retailer": "ebay", "price": 749, "inStock": True, "url": "https://www.ebay.com/sch/i.html?_nkw=iPhone+16+128GB"}
+            {"retailer": "ebay", "price": 749, "inStock": True, "url": "https://www.ebay.com/sch/i.html?_nkw=iPhone+16+128GB"},
+            {"retailer": "cdw", "price": 799, "inStock": True, "url": "https://www.cdw.com/product/apple-iphone-16-128gb-white/8821549"}
         ],
         "releaseDate": "2024-09-20"
     },
@@ -57,7 +58,8 @@ PRODUCTS = [
             {"retailer": "target", "price": 1199, "inStock": True, "url": "https://www.target.com/p/apple-iphone-16-pro-max/-/A-93597962"},
             {"retailer": "bhphoto", "price": 1199, "inStock": True, "url": "https://www.bhphotovideo.com/c/product/1800550-REG/apple_mynn3ll_a_iphone_16_pro_max.html"},
             {"retailer": "adorama", "price": 1199, "inStock": True, "url": "https://www.adorama.com/ac25616pmaxdt.html"},
-            {"retailer": "ebay", "price": 1149, "inStock": True, "url": "https://www.ebay.com/sch/i.html?_nkw=iPhone+16+Pro+Max+256GB"}
+            {"retailer": "ebay", "price": 1149, "inStock": True, "url": "https://www.ebay.com/sch/i.html?_nkw=iPhone+16+Pro+Max+256GB"},
+            {"retailer": "cdw", "price": 1199, "inStock": True, "url": "https://www.cdw.com/product/apple-iphone-16-pro-max-256gb-desert-titanium/8821551"}
         ],
         "releaseDate": "2024-09-20"
     },
@@ -151,7 +153,8 @@ PRODUCTS = [
             {"retailer": "bhphoto", "price": 249, "inStock": True, "url": "https://www.bhphotovideo.com/c/product/1733640-REG/apple_mtjv3am_a_airpods_pro_2nd.html"},
             {"retailer": "adorama", "price": 249, "inStock": True, "url": "https://www.adorama.com/acmtjv3ama.html"},
             {"retailer": "costco", "price": 239, "inStock": True, "url": "https://www.costco.com/apple-airpods-pro-2nd-generation.product.4000143838.html"},
-            {"retailer": "ebay", "price": 219, "inStock": True, "url": "https://www.ebay.com/sch/i.html?_nkw=AirPods+Pro+2+USB-C"}
+            {"retailer": "ebay", "price": 219, "inStock": True, "url": "https://www.ebay.com/sch/i.html?_nkw=AirPods+Pro+2+USB-C"},
+            {"retailer": "sweetwater", "price": 249, "inStock": True, "url": "https://www.sweetwater.com/store/detail/AP2USBC--apple-airpods-pro-2nd-gen-with-magsafe-case-usb-c"}
         ],
         "releaseDate": "2023-09-22"
     },
@@ -167,7 +170,8 @@ PRODUCTS = [
             {"retailer": "walmart", "price": 169, "inStock": True, "url": "https://www.walmart.com/ip/Apple-AirPods-4-Active-Noise-Cancelling/11620163840"},
             {"retailer": "target", "price": 179, "inStock": True, "url": "https://www.target.com/p/apple-airpods-4-with-active-noise-cancellation/-/A-92635832"},
             {"retailer": "bhphoto", "price": 179, "inStock": True, "url": "https://www.bhphotovideo.com/c/product/1802197-REG/apple_airpods_4_with_active.html"},
-            {"retailer": "adorama", "price": 179, "inStock": True, "url": "https://www.adorama.com/acairpods4anc.html"}
+            {"retailer": "adorama", "price": 179, "inStock": True, "url": "https://www.adorama.com/acairpods4anc.html"},
+            {"retailer": "sweetwater", "price": 179, "inStock": True, "url": "https://www.sweetwater.com/store/detail/AP4ANC--apple-airpods-4-with-active-noise-cancellation"}
         ],
         "releaseDate": "2024-09-20"
     },
@@ -183,7 +187,8 @@ PRODUCTS = [
             {"retailer": "walmart", "price": 499, "inStock": True, "url": "https://www.walmart.com/ip/Apple-AirPods-Max-Space-Gray/15448637505"},
             {"retailer": "target", "price": 549, "inStock": True, "url": "https://www.target.com/p/apple-airpods-max/-/A-83651668"},
             {"retailer": "bhphoto", "price": 549, "inStock": True, "url": "https://www.bhphotovideo.com/c/product/1597291-REG/apple_airpods_max_silver.html"},
-            {"retailer": "adorama", "price": 549, "inStock": True, "url": "https://www.adorama.com/acmmef2ama.html"}
+            {"retailer": "adorama", "price": 549, "inStock": True, "url": "https://www.adorama.com/acmmef2ama.html"},
+            {"retailer": "sweetwater", "price": 549, "inStock": True, "url": "https://www.sweetwater.com/store/detail/APMXUSBC--apple-airpods-max-midnight"}
         ],
         "releaseDate": "2024-12-11"
     },
