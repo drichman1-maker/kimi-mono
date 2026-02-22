@@ -27,3 +27,6 @@ httpx==0.25.2
 
 # Utilities
 python-dotenv==1.0.0
+
+# Notifications
+aiohttp==3.9.1

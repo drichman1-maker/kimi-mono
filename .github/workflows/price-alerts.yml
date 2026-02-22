@@ -1,0 +1,42 @@
+name: Price Alert Checks
+
+on:
+  schedule:
+    # Run every hour during business hours (8am-10pm EST = 13:00-03:00 UTC)
+    - cron: '0 13-23 * * *'  # 1pm-11pm UTC (8am-6pm EST)
+    - cron: '0 0-3 * * *'    # 12am-3am UTC (7pm-10pm EST)
+  
+  # Allow manual triggering
+  workflow_dispatch:
+    inputs:
+      check_type:
+        description: 'Type of check to run'
+        required: true
+        default: 'price_drops'
+        type: choice
+        options:
+          - price_drops
+          - restocks
+          - summary
+
+jobs:
+  price-alerts:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Trigger Price Alert Check
+        run: |
+          CHECK_TYPE="${{ github.event.inputs.check_type || 'price_drops' }}"
+          
+          echo "Running $CHECK_TYPE check..."
+          
+          curl -X POST "${{ secrets.API_URL }}/api/v1/alerts/trigger-check?check_type=$CHECK_TYPE" \
+            -H "Content-Type: application/json" \
+            -H "X-Cron-Secret: ${{ secrets.CRON_SECRET }}" \
+            -v
+        
+      - name: Check Response
+        if: failure()
+        run: |
+          echo "❌ Price alert check failed"
+          exit 1
