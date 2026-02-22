@@ -34,14 +34,9 @@ PRODUCTS = [
         "specs": {"storage": "128GB", "color": "White", "display": "6.1\" Super Retina XDR", "camera": "48MP Fusion"},
         "prices": [
             {"retailer": "apple", "price": 799, "inStock": True, "url": "https://www.apple.com/shop/buy-iphone/iphone-16"},
-            {"retailer": "amazon", "price": 799, "inStock": True, "url": "https://www.amazon.com/Apple-iPhone-128GB-White-Intelligence/dp/B0DHTYW7P8"},
-            {"retailer": "bestbuy", "price": 799, "inStock": True, "url": "https://www.bestbuy.com/site/apple-iphone-16-128gb-white-verizon/JJGCQ866TH"},
             {"retailer": "walmart", "price": 799, "inStock": True, "url": "https://www.walmart.com/ip/iPhone-16-128GB-White-Apple-Intelligence/11469110090"},
             {"retailer": "target", "price": 799, "inStock": True, "url": "https://www.target.com/p/apple-iphone-16-128gb-white/-/A-86076262"},
-            {"retailer": "bhphoto", "price": 799, "inStock": True, "url": "https://www.bhphotovideo.com/c/product/1800534-REG/apple_myd53ll_a_iphone_16_128gb_white.html"},
-            {"retailer": "adorama", "price": 799, "inStock": True, "url": "https://www.adorama.com/ac12816wh.html"},
-            {"retailer": "ebay", "price": 749, "inStock": True, "url": "https://www.ebay.com/sch/i.html?_nkw=iPhone+16+128GB"},
-            {"retailer": "cdw", "price": 799, "inStock": True, "url": "https://www.cdw.com/product/apple-iphone-16-128gb-white/8821549"}
+            {"retailer": "ebay", "price": 749, "inStock": True, "url": "https://www.ebay.com/sch/i.html?_nkw=iPhone+16+128GB+new"}
         ],
         "releaseDate": "2024-09-20"
     },
@@ -52,10 +47,12 @@ PRODUCTS = [
         "specs": {"storage": "256GB", "color": "Desert Titanium", "display": "6.9\" Super Retina XDR", "camera": "48MP Fusion"},
         "prices": [
             {"retailer": "apple", "price": 1199, "inStock": True, "url": "https://www.apple.com/shop/buy-iphone/iphone-16-pro-max"},
-            {"retailer": "amazon", "price": 1199, "inStock": True, "url": "https://www.amazon.com/Apple-iPhone-256GB-Desert-Titanium/dp/B0DHTZ4QQP"},
-            {"retailer": "bestbuy", "price": 1199, "inStock": True, "url": "https://www.bestbuy.com/site/apple-iphone-16-pro-max-256gb-desert-titanium-verizon/JCQ6HRFWVW"},
             {"retailer": "walmart", "price": 1199, "inStock": True, "url": "https://www.walmart.com/ip/Apple-iPhone-16-Pro-Max-256GB-Desert-Titanium/5000354046"},
             {"retailer": "target", "price": 1199, "inStock": True, "url": "https://www.target.com/p/apple-iphone-16-pro-max/-/A-93597962"},
+            {"retailer": "ebay", "price": 1149, "inStock": True, "url": "https://www.ebay.com/sch/i.html?_nkw=iPhone+16+Pro+Max+256GB+new"}
+        ],
+        "releaseDate": "2024-09-20"
+    },
             {"retailer": "bhphoto", "price": 1199, "inStock": True, "url": "https://www.bhphotovideo.com/c/product/1800550-REG/apple_mynn3ll_a_iphone_16_pro_max.html"},
             {"retailer": "adorama", "price": 1199, "inStock": True, "url": "https://www.adorama.com/ac25616pmaxdt.html"},
             {"retailer": "ebay", "price": 1149, "inStock": True, "url": "https://www.ebay.com/sch/i.html?_nkw=iPhone+16+Pro+Max+256GB"},
@@ -169,12 +166,8 @@ PRODUCTS = [
         "specs": {"chip": "M3", "storage": "128GB", "display": "11\" Liquid Retina"},
         "prices": [
             {"retailer": "apple", "price": 599, "inStock": True, "url": "https://www.apple.com/shop/buy-ipad/ipad-air/11-inch-display-128gb-space-gray-wifi"},
-            {"retailer": "amazon", "price": 599, "inStock": True, "url": "https://www.amazon.com/Apple-iPad-Air-11-inch-128GB/dp/B0D3J3C1QD"},
-            {"retailer": "bestbuy", "price": 599, "inStock": True, "url": "https://www.bestbuy.com/site/apple-11-inch-ipad-air-m3-chip-wi-fi-128gb-space-gray/6534608.p"},
             {"retailer": "walmart", "price": 599, "inStock": True, "url": "https://www.walmart.com/ip/2025-Apple-11-inch-iPad-Air-M3-Built-for-Apple-Intelligence-Wi-Fi-128GB-Space-Gray/15450254481"},
-            {"retailer": "target", "price": 599, "inStock": True, "url": "https://www.target.com/p/apple-ipad-air-m3-11-inch-wi-fi-128gb-space-gray/-/A-91122029"},
-            {"retailer": "bhphoto", "price": 599, "inStock": True, "url": "https://www.bhphotovideo.com/c/product/1812268-REG/apple_ipad_air_11_m3_128gb.html"},
-            {"retailer": "adorama", "price": 599, "inStock": True, "url": "https://www.adorama.com/acipadair11.html"}
+            {"retailer": "target", "price": 599, "inStock": True, "url": "https://www.target.com/p/apple-ipad-air-m3-11-inch-wi-fi-128gb-space-gray/-/A-91122029"}
         ],
         "releaseDate": "2025-03-01"
     },
@@ -232,14 +225,7 @@ PRODUCTS = [
         "category": "airpods",
         "specs": {"chip": "H2", "features": "Active Noise Cancellation, Spatial Audio, USB-C", "battery": "30h with case"},
         "prices": [
-            {"retailer": "apple", "price": 179, "inStock": True, "url": "https://www.apple.com/shop/buy-airpods/airpods-4"},
-            {"retailer": "amazon", "price": 169, "inStock": True, "url": "https://www.amazon.com/Apple-AirPods-4-Wireless-Earbuds/dp/B0D1XD5Z8Q"},
-            {"retailer": "bestbuy", "price": 179, "inStock": True, "url": "https://www.bestbuy.com/site/apple-airpods-4-wireless-earbuds-active-noise-cancelling-bluetooth-headphones-with-magsafe-charging-case-usbc-white/6418599.p"},
-            {"retailer": "walmart", "price": 169, "inStock": True, "url": "https://www.walmart.com/ip/Apple-AirPods-4-Active-Noise-Cancelling/11620163840"},
-            {"retailer": "target", "price": 179, "inStock": True, "url": "https://www.target.com/p/apple-airpods-4-with-active-noise-cancellation/-/A-92635832"},
-            {"retailer": "bhphoto", "price": 179, "inStock": True, "url": "https://www.bhphotovideo.com/c/product/1802197-REG/apple_airpods_4_with_active.html"},
-            {"retailer": "adorama", "price": 179, "inStock": True, "url": "https://www.adorama.com/acairpods4anc.html"},
-            {"retailer": "sweetwater", "price": 179, "inStock": True, "url": "https://www.sweetwater.com/store/detail/AP4ANC--apple-airpods-4-with-active-noise-cancellation"}
+            {"retailer": "apple", "price": 179, "inStock": True, "url": "https://www.apple.com/shop/buy-airpods/airpods-4"}
         ],
         "releaseDate": "2024-09-20"
     },
@@ -249,14 +235,7 @@ PRODUCTS = [
         "category": "airpods",
         "specs": {"chip": "H1", "features": "Active Noise Cancellation, Spatial Audio, Digital Crown", "battery": "20h"},
         "prices": [
-            {"retailer": "apple", "price": 549, "inStock": True, "url": "https://www.apple.com/shop/buy-airpods/airpods-max"},
-            {"retailer": "amazon", "price": 499, "inStock": True, "url": "https://www.amazon.com/Apple-AirPods-Max-Black-USB/dp/B0D1X6JJWQ"},
-            {"retailer": "bestbuy", "price": 549, "inStock": True, "url": "https://www.bestbuy.com/site/apple-airpods-max-wireless-over-ear-headphones-active-noise-cancelling-bluetooth-space-gray/6418591.p"},
-            {"retailer": "walmart", "price": 499, "inStock": True, "url": "https://www.walmart.com/ip/Apple-AirPods-Max-Space-Gray/15448637505"},
-            {"retailer": "target", "price": 549, "inStock": True, "url": "https://www.target.com/p/apple-airpods-max/-/A-83651668"},
-            {"retailer": "bhphoto", "price": 549, "inStock": True, "url": "https://www.bhphotovideo.com/c/product/1597291-REG/apple_airpods_max_silver.html"},
-            {"retailer": "adorama", "price": 549, "inStock": True, "url": "https://www.adorama.com/acmmef2ama.html"},
-            {"retailer": "sweetwater", "price": 549, "inStock": True, "url": "https://www.sweetwater.com/store/detail/APMXUSBC--apple-airpods-max-midnight"}
+            {"retailer": "apple", "price": 549, "inStock": True, "url": "https://www.apple.com/shop/buy-airpods/airpods-max"}
         ],
         "releaseDate": "2024-12-11"
     },
@@ -409,13 +388,7 @@ PRODUCTS = [
         "category": "ipad",
         "specs": {"chip": "M4", "storage": "256GB", "display": "13\" Ultra Retina XDR", "color": "Space Black"},
         "prices": [
-            {"retailer": "apple", "price": 1299, "inStock": True, "url": "https://www.apple.com/shop/buy-ipad/ipad-pro"},
-            {"retailer": "amazon", "price": 1299, "inStock": True, "url": "https://www.amazon.com/Apple-iPad-Pro-13-inch-256GB/dp/B0D3J5Z9SX"},
-            {"retailer": "bestbuy", "price": 1299, "inStock": True, "url": "https://www.bestbuy.com/site/apple-ipad-pro-13-inch-m4-chip-wi-fi-256gb-space-black/MVX23LL-A"},
-            {"retailer": "walmart", "price": 1299, "inStock": True, "url": "https://www.walmart.com/ip/Apple-iPad-Pro-13-inch-M4-256GB-Wi-Fi-Space-Black/5038464532"},
-            {"retailer": "bhphoto", "price": 1299, "inStock": True, "url": "https://www.bhphotovideo.com/c/product/1794196-REG/apple_mvx23ll_a_ipad_pro_13_m4_256gb.html"},
-            {"retailer": "adorama", "price": 1299, "inStock": True, "url": "https://www.adorama.com/ac25613pm4sb.html"},
-            {"retailer": "ebay", "price": 1199, "inStock": True, "url": "https://www.ebay.com/sch/i.html?_nkw=iPad+Pro+13+M4+256GB"}
+            {"retailer": "apple", "price": 1299, "inStock": True, "url": "https://www.apple.com/shop/buy-ipad/ipad-pro"}
         ],
         "releaseDate": "2024-05-15"
     },
@@ -672,12 +645,7 @@ PRODUCTS = [
         "category": "watch",
         "specs": {"size": "49mm", "case": "Natural Titanium", "band": "Orange Alpine Loop", "features": "GPS + Cellular"},
         "prices": [
-            {"retailer": "apple", "price": 799, "inStock": True, "url": "https://www.apple.com/shop/buy-watch/apple-watch-ultra"},
-            {"retailer": "amazon", "price": 749, "inStock": True, "url": "https://www.amazon.com/Apple-Watch-Ultra-2-GPS-Cellular/dp/B0CHX1W1XY"},
-            {"retailer": "bestbuy", "price": 749, "inStock": True, "url": "https://www.bestbuy.com/site/apple-watch-ultra-2-gps-cellular-49mm-natural-titanium-case-with-orange-alpine-loop-medium/MQDY3LL-A"},
-            {"retailer": "walmart", "price": 749, "inStock": True, "url": "https://www.walmart.com/ip/Apple-Watch-Ultra-2-GPS-Cellular-49mm-Natural-Titanium-Case-with-Orange-Alpine-Loop-Medium/5000354050"},
-            {"retailer": "bhphoto", "price": 749, "inStock": True, "url": "https://www.bhphotovideo.com/c/product/1800560-REG/apple_mqdy3ll_a_watch_ultra_2.html"},
-            {"retailer": "adorama", "price": 749, "inStock": True, "url": "https://www.adorama.com/ac49u2oal.html"}
+            {"retailer": "apple", "price": 799, "inStock": True, "url": "https://www.apple.com/shop/buy-watch/apple-watch-ultra"}
         ],
         "releaseDate": "2024-09-20"
     },
