@@ -64,6 +64,74 @@ PRODUCTS = [
         "releaseDate": "2024-09-20"
     },
     {
+        "id": "iphone-17-128-unlocked",
+        "name": "iPhone 17",
+        "category": "iphone",
+        "specs": {"storage": "128GB", "color": "Midnight", "display": "6.3" Super Retina XDR", "camera": "48MP Fusion + 48MP Ultra Wide"},
+        "prices": [
+            {"retailer": "apple", "price": 899, "inStock": True, "url": "https://www.apple.com/shop/buy-iphone/iphone-17"},
+            {"retailer": "amazon", "price": 899, "inStock": True, "url": "https://www.amazon.com/s?k=iPhone+17+128GB"},
+            {"retailer": "bestbuy", "price": 899, "inStock": True, "url": "https://www.bestbuy.com/site/searchpage.jsp?st=iPhone+17"},
+            {"retailer": "walmart", "price": 899, "inStock": True, "url": "https://www.walmart.com/search?q=iPhone+17+128GB"},
+            {"retailer": "target", "price": 899, "inStock": True, "url": "https://www.target.com/s?searchTerm=iPhone+17"},
+            {"retailer": "bhphoto", "price": 899, "inStock": True, "url": "https://www.bhphotovideo.com/c/search?q=iPhone+17"},
+            {"retailer": "adorama", "price": 899, "inStock": True, "url": "https://www.adorama.com/search?query=iPhone+17"},
+            {"retailer": "ebay", "price": 849, "inStock": True, "url": "https://www.ebay.com/sch/i.html?_nkw=iPhone+17+128GB"}
+        ],
+        "releaseDate": "2025-09-19"
+    },
+    {
+        "id": "iphone-17-pro-256",
+        "name": "iPhone 17 Pro",
+        "category": "iphone",
+        "specs": {"storage": "256GB", "color": "Natural Titanium", "display": "6.3" Super Retina XDR ProMotion", "camera": "48MP Fusion + 48MP Ultra Wide + 12MP 5x Telephoto"},
+        "prices": [
+            {"retailer": "apple", "price": 1099, "inStock": True, "url": "https://www.apple.com/shop/buy-iphone/iphone-17-pro"},
+            {"retailer": "amazon", "price": 1099, "inStock": True, "url": "https://www.amazon.com/s?k=iPhone+17+Pro+256GB"},
+            {"retailer": "bestbuy", "price": 1099, "inStock": True, "url": "https://www.bestbuy.com/site/searchpage.jsp?st=iPhone+17+Pro"},
+            {"retailer": "walmart", "price": 1099, "inStock": True, "url": "https://www.walmart.com/search?q=iPhone+17+Pro+256GB"},
+            {"retailer": "target", "price": 1099, "inStock": True, "url": "https://www.target.com/s?searchTerm=iPhone+17+Pro"},
+            {"retailer": "bhphoto", "price": 1099, "inStock": True, "url": "https://www.bhphotovideo.com/c/search?q=iPhone+17+Pro"},
+            {"retailer": "adorama", "price": 1099, "inStock": True, "url": "https://www.adorama.com/search?query=iPhone+17+Pro"},
+            {"retailer": "ebay", "price": 1049, "inStock": True, "url": "https://www.ebay.com/sch/i.html?_nkw=iPhone+17+Pro+256GB"}
+        ],
+        "releaseDate": "2025-09-19"
+    },
+    {
+        "id": "iphone-17-pro-max-256",
+        "name": "iPhone 17 Pro Max",
+        "category": "iphone",
+        "specs": {"storage": "256GB", "color": "Natural Titanium", "display": "6.9" Super Retina XDR ProMotion", "camera": "48MP Fusion + 48MP Ultra Wide + 12MP 5x Telephoto"},
+        "prices": [
+            {"retailer": "apple", "price": 1199, "inStock": True, "url": "https://www.apple.com/shop/buy-iphone/iphone-17-pro"},
+            {"retailer": "amazon", "price": 1199, "inStock": True, "url": "https://www.amazon.com/s?k=iPhone+17+Pro+Max+256GB"},
+            {"retailer": "bestbuy", "price": 1199, "inStock": True, "url": "https://www.bestbuy.com/site/searchpage.jsp?st=iPhone+17+Pro+Max"},
+            {"retailer": "walmart", "price": 1199, "inStock": True, "url": "https://www.walmart.com/search?q=iPhone+17+Pro+Max+256GB"},
+            {"retailer": "target", "price": 1199, "inStock": True, "url": "https://www.target.com/s?searchTerm=iPhone+17+Pro+Max"},
+            {"retailer": "bhphoto", "price": 1199, "inStock": True, "url": "https://www.bhphotovideo.com/c/search?q=iPhone+17+Pro+Max"},
+            {"retailer": "adorama", "price": 1199, "inStock": True, "url": "https://www.adorama.com/search?query=iPhone+17+Pro+Max"},
+            {"retailer": "ebay", "price": 1149, "inStock": True, "url": "https://www.ebay.com/sch/i.html?_nkw=iPhone+17+Pro+Max+256GB"}
+        ],
+        "releaseDate": "2025-09-19"
+    },
+    {
+        "id": "iphone-17-air-128",
+        "name": "iPhone 17 Air",
+        "category": "iphone",
+        "specs": {"storage": "128GB", "color": "Starlight", "display": "6.6" Super Retina XDR", "camera": "48MP Fusion", "notes": "Ultra-thin design, 5.5mm thickness"},
+        "prices": [
+            {"retailer": "apple", "price": 999, "inStock": True, "url": "https://www.apple.com/shop/buy-iphone/iphone-17-air"},
+            {"retailer": "amazon", "price": 999, "inStock": True, "url": "https://www.amazon.com/s?k=iPhone+17+Air+128GB"},
+            {"retailer": "bestbuy", "price": 999, "inStock": True, "url": "https://www.bestbuy.com/site/searchpage.jsp?st=iPhone+17+Air"},
+            {"retailer": "walmart", "price": 999, "inStock": True, "url": "https://www.walmart.com/search?q=iPhone+17+Air+128GB"},
+            {"retailer": "target", "price": 999, "inStock": True, "url": "https://www.target.com/s?searchTerm=iPhone+17+Air"},
+            {"retailer": "bhphoto", "price": 999, "inStock": True, "url": "https://www.bhphotovideo.com/c/search?q=iPhone+17+Air"},
+            {"retailer": "adorama", "price": 999, "inStock": True, "url": "https://www.adorama.com/search?query=iPhone+17+Air"},
+            {"retailer": "ebay", "price": 949, "inStock": True, "url": "https://www.ebay.com/sch/i.html?_nkw=iPhone+17+Air+128GB"}
+        ],
+        "releaseDate": "2025-09-19"
+    },
+    {
         "id": "macbook-air-13-m4",
         "name": "MacBook Air 13\"",
         "category": "mac",
@@ -206,8 +274,8 @@ PRODUCTS = [
         ],
         "releaseDate": "2024-09-20"
     },
-    // === NEW PRODUCTS FROM PDF (M4 Generation + iPhone 16 Series) ===
-    // iPhone 16 Pro Max variants
+    # === NEW PRODUCTS FROM PDF (M4 Generation + iPhone 16 Series) ===
+    # iPhone 16 Pro Max variants
     {
         "id": "iphone-16-pro-max-512",
         "name": "iPhone 16 Pro Max",
@@ -238,7 +306,7 @@ PRODUCTS = [
         ],
         "releaseDate": "2024-09-20"
     },
-    // iPhone 16 Pro 512GB
+    # iPhone 16 Pro 512GB
     {
         "id": "iphone-16-pro-512",
         "name": "iPhone 16 Pro",
@@ -254,7 +322,7 @@ PRODUCTS = [
         ],
         "releaseDate": "2024-09-20"
     },
-    // iPhone 16 and 16 Plus
+    # iPhone 16 and 16 Plus
     {
         "id": "iphone-16-128",
         "name": "iPhone 16",
@@ -287,7 +355,7 @@ PRODUCTS = [
         ],
         "releaseDate": "2024-09-20"
     },
-    // iPhone 15 series (still current)
+    # iPhone 15 series (still current)
     {
         "id": "iphone-15-pro-max-256",
         "name": "iPhone 15 Pro Max",
@@ -334,7 +402,7 @@ PRODUCTS = [
         ],
         "releaseDate": "2023-09-22"
     },
-    // iPad Pro M4
+    # iPad Pro M4
     {
         "id": "ipad-pro-13-m4-256",
         "name": "iPad Pro 13\"",
@@ -366,7 +434,7 @@ PRODUCTS = [
         ],
         "releaseDate": "2024-05-15"
     },
-    // iPad Air M3
+    # iPad Air M3
     {
         "id": "ipad-air-13-m3-256",
         "name": "iPad Air 13\"",
@@ -397,7 +465,7 @@ PRODUCTS = [
         ],
         "releaseDate": "2025-03-12"
     },
-    // iPad mini 7
+    # iPad mini 7
     {
         "id": "ipad-mini-7-128",
         "name": "iPad mini 7",
@@ -413,7 +481,7 @@ PRODUCTS = [
         ],
         "releaseDate": "2024-10-23"
     },
-    // MacBook Air M4
+    # MacBook Air M4
     {
         "id": "macbook-air-13-m4-24gb",
         "name": "MacBook Air 13\"",
@@ -444,7 +512,7 @@ PRODUCTS = [
         ],
         "releaseDate": "2025-03-12"
     },
-    // MacBook Pro M4
+    # MacBook Pro M4
     {
         "id": "macbook-pro-16-m4-pro",
         "name": "MacBook Pro 16\"",
@@ -490,7 +558,7 @@ PRODUCTS = [
         ],
         "releaseDate": "2024-11-08"
     },
-    // Mac mini M4
+    # Mac mini M4
     {
         "id": "mac-mini-m4-pro",
         "name": "Mac mini",
@@ -506,7 +574,7 @@ PRODUCTS = [
         ],
         "releaseDate": "2024-11-08"
     },
-    // === DESKTOP MACS FROM EXCEL ===
+    # === DESKTOP MACS FROM EXCEL ===
     {
         "id": "imac-24-m4-8core",
         "name": "iMac 24\"",
@@ -597,7 +665,7 @@ PRODUCTS = [
         ],
         "releaseDate": "2025-03-12"
     },
-    // Apple Watch
+    # Apple Watch
     {
         "id": "apple-watch-ultra-2",
         "name": "Apple Watch Ultra 2",

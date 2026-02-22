@@ -1,0 +1,3 @@
+# Deployment verification file
+# v1.1 - Telegram alerts enabled
+# Trigger check endpoint added: POST /api/v1/alerts/trigger-check
