@@ -135,12 +135,8 @@ PRODUCTS = [
         "specs": {"chip": "M4", "ram": "16GB", "storage": "256GB SSD", "display": "13.6\" Liquid Retina"},
         "prices": [
             {"retailer": "apple", "price": 999, "inStock": True, "url": "https://www.apple.com/shop/buy-mac/macbook-air/13-inch"},
-            {"retailer": "amazon", "price": 999, "inStock": True, "url": "https://www.amazon.com/Apple-MacBook-13-inch-10-Core-16-Core/dp/B0DKLHHMZ4"},
-            {"retailer": "bestbuy", "price": 999, "inStock": True, "url": "https://www.bestbuy.com/site/apple-macbook-air-13-inch-laptop-apple-m4-chip-16gb-memory-256gb-ssd-midnight/6534616.p"},
             {"retailer": "walmart", "price": 999, "inStock": True, "url": "https://www.walmart.com/ip/Apple-13-inch-MacBook-Air-M4-w-10-core-CPU-and-8-core-GPU-256GB-SSD-Silver-MW0W3LL-A-2025/15481367422"},
-            {"retailer": "bhphoto", "price": 999, "inStock": True, "url": "https://www.bhphotovideo.com/c/product/1811193-REG/apple_mw123ll_a_13_macbook_air_m4.html"},
-            {"retailer": "adorama", "price": 999, "inStock": True, "url": "https://www.adorama.com/acmba1324sm4.html"},
-            {"retailer": "ebay", "price": 949, "inStock": True, "url": "https://www.ebay.com/sch/i.html?_nkw=MacBook+Air+13+M4"}
+            {"retailer": "ebay", "price": 949, "inStock": True, "url": "https://www.ebay.com/sch/i.html?_nkw=MacBook+Air+13+M4+new"}
         ],
         "releaseDate": "2025-03-01"
     },
@@ -151,11 +147,8 @@ PRODUCTS = [
         "specs": {"chip": "M4", "ram": "24GB", "storage": "512GB SSD", "display": "14.2\" XDR"},
         "prices": [
             {"retailer": "apple", "price": 1999, "inStock": True, "url": "https://www.apple.com/shop/buy-mac/macbook-pro/14-inch"},
-            {"retailer": "amazon", "price": 1999, "inStock": True, "url": "https://www.amazon.com/Apple-MacBook-14-inch-14-Core-20-Core/dp/B0DKLHH7T4"},
-            {"retailer": "bestbuy", "price": 1999, "inStock": True, "url": "https://www.bestbuy.com/site/apple-macbook-pro-14-inch-laptop-m4-pro-chip-24gb-memory-512gb-ssd-space-black/6534615.p"},
             {"retailer": "walmart", "price": 1999, "inStock": True, "url": "https://www.walmart.com/ip/Apple-14-MacBook-Pro-with-M4-Chip-10-Core-CPU-10-Core-GPU-24GB-Memory-1TB-SSD-Space-Black-2024/13679766551"},
-            {"retailer": "bhphoto", "price": 1999, "inStock": True, "url": "https://www.bhphotovideo.com/c/product/1811194-REG/apple_mbp14m4_24gb_512.html"},
-            {"retailer": "adorama", "price": 1999, "inStock": True, "url": "https://www.adorama.com/acmbp1424m4.html"}
+            {"retailer": "ebay", "price": 1899, "inStock": True, "url": "https://www.ebay.com/sch/i.html?_nkw=MacBook+Pro+14+M4+new"}
         ],
         "releaseDate": "2024-11-01"
     },
@@ -177,12 +170,7 @@ PRODUCTS = [
         "category": "mac",
         "specs": {"chip": "M4", "ram": "16GB", "storage": "256GB SSD"},
         "prices": [
-            {"retailer": "apple", "price": 599, "inStock": True, "url": "https://www.apple.com/shop/buy-mac/mac-mini/m4"},
-            {"retailer": "amazon", "price": 599, "inStock": True, "url": "https://www.amazon.com/Apple-2024-Mac-Desktop-Computer/dp/B0DKLHHMZ5"},
-            {"retailer": "bestbuy", "price": 599, "inStock": True, "url": "https://www.bestbuy.com/site/apple-mac-mini-desktop-m4-chip-16gb-memory-256gb-ssd-silver/6534617.p"},
-            {"retailer": "walmart", "price": 599, "inStock": True, "url": "https://www.walmart.com/ip/Apple-2024-Mac-mini-Desktop-Computer-with-M4-chip-10-core-CPU-10-core-GPU-16GB-Unified-Memory-256GB/5406222929"},
-            {"retailer": "bhphoto", "price": 599, "inStock": True, "url": "https://www.bhphotovideo.com/c/product/1811195-REG/apple_mac_mini_m4_256gb.html"},
-            {"retailer": "adorama", "price": 599, "inStock": True, "url": "https://www.adorama.com/acmacminim4.html"}
+            {"retailer": "apple", "price": 599, "inStock": True, "url": "https://www.apple.com/shop/buy-mac/mac-mini/m4"}
         ],
         "releaseDate": "2025-03-01"
     },
@@ -192,11 +180,7 @@ PRODUCTS = [
         "category": "watch",
         "specs": {"size": "42mm", "case": "Jet Black Aluminum", "band": "Black Sport Band"},
         "prices": [
-            {"retailer": "apple", "price": 399, "inStock": True, "url": "https://www.apple.com/shop/buy-watch/apple-watch"},
-            {"retailer": "amazon", "price": 399, "inStock": True, "url": "https://www.amazon.com/Apple-Watch-GPS-Aluminum-Sport/dp/B0DGHQ72MX"},
-            {"retailer": "bestbuy", "price": 399, "inStock": True, "url": "https://www.bestbuy.com/site/apple-watch-series-10-gps-42mm-aluminum-case-with-black-sport-band-m-l-jet-black/6574960.p"},
-            {"retailer": "walmart", "price": 399, "inStock": True, "url": "https://www.walmart.com/ip/Apple-Watch-Series-10-GPS-42mm-Jet-Black-Aluminum-Case-with-Black-Sport-Band-S-M/11385157008"},
-            {"retailer": "target", "price": 399, "inStock": True, "url": "https://www.target.com/p/apple-watch-series-10-gps-42mm-jet-black-aluminum-case-with-black-sport-band-m-l/-/A-91122498"}
+            {"retailer": "apple", "price": 399, "inStock": True, "url": "https://www.apple.com/shop/buy-watch/apple-watch"}
         ],
         "releaseDate": "2024-09-20"
     },
